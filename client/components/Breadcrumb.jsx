@@ -30,6 +30,7 @@ function Breadcrumb({ crumbs }) {
                   crumb.label
                 )}
               </Link>
+          
             </li>
             {index < crumbs.length - 1 && (
               <li className="rtl:rotate-180">
